@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC10A2C31DA290C1006AF558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10A2C21DA290C1006AF558 /* AppDelegate.swift */; };
+		AC10A2C51DA290C1006AF558 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10A2C41DA290C1006AF558 /* ViewController.swift */; };
+		AC10A2C81DA290C1006AF558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC10A2C61DA290C1006AF558 /* Main.storyboard */; };
+		AC10A2CA1DA290C1006AF558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC10A2C91DA290C1006AF558 /* Assets.xcassets */; };
+		AC10A2CD1DA290C1006AF558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC10A2CB1DA290C1006AF558 /* LaunchScreen.storyboard */; };
+		AC10A2D81DA290C1006AF558 /* vimeoPruebaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10A2D71DA290C1006AF558 /* vimeoPruebaTests.swift */; };
+		AC10A2E31DA290C1006AF558 /* vimeoPruebaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10A2E21DA290C1006AF558 /* vimeoPruebaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC10A2D41DA290C1006AF558 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC10A2B71DA290C0006AF558 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC10A2BE1DA290C0006AF558;
+			remoteInfo = vimeoPrueba;
+		};
+		AC10A2DF1DA290C1006AF558 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC10A2B71DA290C0006AF558 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC10A2BE1DA290C0006AF558;
+			remoteInfo = vimeoPrueba;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC10A2BF1DA290C1006AF558 /* vimeoPrueba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vimeoPrueba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC10A2C21DA290C1006AF558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC10A2C41DA290C1006AF558 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC10A2C71DA290C1006AF558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC10A2C91DA290C1006AF558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC10A2CC1DA290C1006AF558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC10A2CE1DA290C1006AF558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC10A2D31DA290C1006AF558 /* vimeoPruebaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vimeoPruebaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC10A2D71DA290C1006AF558 /* vimeoPruebaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vimeoPruebaTests.swift; sourceTree = "<group>"; };
+		AC10A2D91DA290C1006AF558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC10A2DE1DA290C1006AF558 /* vimeoPruebaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vimeoPruebaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC10A2E21DA290C1006AF558 /* vimeoPruebaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vimeoPruebaUITests.swift; sourceTree = "<group>"; };
+		AC10A2E41DA290C1006AF558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC10A2BC1DA290C0006AF558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC10A2D01DA290C1006AF558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC10A2DB1DA290C1006AF558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC10A2B61DA290C0006AF558 = {
+			isa = PBXGroup;
+			children = (
+				AC10A2C11DA290C1006AF558 /* vimeoPrueba */,
+				AC10A2D61DA290C1006AF558 /* vimeoPruebaTests */,
+				AC10A2E11DA290C1006AF558 /* vimeoPruebaUITests */,
+				AC10A2C01DA290C1006AF558 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC10A2C01DA290C1006AF558 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC10A2BF1DA290C1006AF558 /* vimeoPrueba.app */,
+				AC10A2D31DA290C1006AF558 /* vimeoPruebaTests.xctest */,
+				AC10A2DE1DA290C1006AF558 /* vimeoPruebaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC10A2C11DA290C1006AF558 /* vimeoPrueba */ = {
+			isa = PBXGroup;
+			children = (
+				AC10A2C21DA290C1006AF558 /* AppDelegate.swift */,
+				AC10A2C41DA290C1006AF558 /* ViewController.swift */,
+				AC10A2C61DA290C1006AF558 /* Main.storyboard */,
+				AC10A2C91DA290C1006AF558 /* Assets.xcassets */,
+				AC10A2CB1DA290C1006AF558 /* LaunchScreen.storyboard */,
+				AC10A2CE1DA290C1006AF558 /* Info.plist */,
+			);
+			path = vimeoPrueba;
+			sourceTree = "<group>";
+		};
+		AC10A2D61DA290C1006AF558 /* vimeoPruebaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC10A2D71DA290C1006AF558 /* vimeoPruebaTests.swift */,
+				AC10A2D91DA290C1006AF558 /* Info.plist */,
+			);
+			path = vimeoPruebaTests;
+			sourceTree = "<group>";
+		};
+		AC10A2E11DA290C1006AF558 /* vimeoPruebaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC10A2E21DA290C1006AF558 /* vimeoPruebaUITests.swift */,
+				AC10A2E41DA290C1006AF558 /* Info.plist */,
+			);
+			path = vimeoPruebaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC10A2BE1DA290C0006AF558 /* vimeoPrueba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC10A2E71DA290C1006AF558 /* Build configuration list for PBXNativeTarget "vimeoPrueba" */;
+			buildPhases = (
+				AC10A2BB1DA290C0006AF558 /* Sources */,
+				AC10A2BC1DA290C0006AF558 /* Frameworks */,
+				AC10A2BD1DA290C0006AF558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vimeoPrueba;
+			productName = vimeoPrueba;
+			productReference = AC10A2BF1DA290C1006AF558 /* vimeoPrueba.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC10A2D21DA290C1006AF558 /* vimeoPruebaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC10A2EA1DA290C1006AF558 /* Build configuration list for PBXNativeTarget "vimeoPruebaTests" */;
+			buildPhases = (
+				AC10A2CF1DA290C1006AF558 /* Sources */,
+				AC10A2D01DA290C1006AF558 /* Frameworks */,
+				AC10A2D11DA290C1006AF558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC10A2D51DA290C1006AF558 /* PBXTargetDependency */,
+			);
+			name = vimeoPruebaTests;
+			productName = vimeoPruebaTests;
+			productReference = AC10A2D31DA290C1006AF558 /* vimeoPruebaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC10A2DD1DA290C1006AF558 /* vimeoPruebaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC10A2ED1DA290C1006AF558 /* Build configuration list for PBXNativeTarget "vimeoPruebaUITests" */;
+			buildPhases = (
+				AC10A2DA1DA290C1006AF558 /* Sources */,
+				AC10A2DB1DA290C1006AF558 /* Frameworks */,
+				AC10A2DC1DA290C1006AF558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC10A2E01DA290C1006AF558 /* PBXTargetDependency */,
+			);
+			name = vimeoPruebaUITests;
+			productName = vimeoPruebaUITests;
+			productReference = AC10A2DE1DA290C1006AF558 /* vimeoPruebaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC10A2B71DA290C0006AF558 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Juan david Lopera lopez";
+				TargetAttributes = {
+					AC10A2BE1DA290C0006AF558 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					AC10A2D21DA290C1006AF558 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC10A2BE1DA290C0006AF558;
+					};
+					AC10A2DD1DA290C1006AF558 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC10A2BE1DA290C0006AF558;
+					};
+				};
+			};
+			buildConfigurationList = AC10A2BA1DA290C0006AF558 /* Build configuration list for PBXProject "vimeoPrueba" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC10A2B61DA290C0006AF558;
+			productRefGroup = AC10A2C01DA290C1006AF558 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC10A2BE1DA290C0006AF558 /* vimeoPrueba */,
+				AC10A2D21DA290C1006AF558 /* vimeoPruebaTests */,
+				AC10A2DD1DA290C1006AF558 /* vimeoPruebaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC10A2BD1DA290C0006AF558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC10A2CD1DA290C1006AF558 /* LaunchScreen.storyboard in Resources */,
+				AC10A2CA1DA290C1006AF558 /* Assets.xcassets in Resources */,
+				AC10A2C81DA290C1006AF558 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC10A2D11DA290C1006AF558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC10A2DC1DA290C1006AF558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC10A2BB1DA290C0006AF558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC10A2C51DA290C1006AF558 /* ViewController.swift in Sources */,
+				AC10A2C31DA290C1006AF558 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC10A2CF1DA290C1006AF558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC10A2D81DA290C1006AF558 /* vimeoPruebaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC10A2DA1DA290C1006AF558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC10A2E31DA290C1006AF558 /* vimeoPruebaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC10A2D51DA290C1006AF558 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC10A2BE1DA290C0006AF558 /* vimeoPrueba */;
+			targetProxy = AC10A2D41DA290C1006AF558 /* PBXContainerItemProxy */;
+		};
+		AC10A2E01DA290C1006AF558 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC10A2BE1DA290C0006AF558 /* vimeoPrueba */;
+			targetProxy = AC10A2DF1DA290C1006AF558 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC10A2C61DA290C1006AF558 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC10A2C71DA290C1006AF558 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC10A2CB1DA290C1006AF558 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC10A2CC1DA290C1006AF558 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC10A2E51DA290C1006AF558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC10A2E61DA290C1006AF558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC10A2E81DA290C1006AF558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vimeoPrueba/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bwStudios.vimeoPrueba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC10A2E91DA290C1006AF558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vimeoPrueba/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bwStudios.vimeoPrueba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AC10A2EB1DA290C1006AF558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = vimeoPruebaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bwStudios.vimeoPruebaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vimeoPrueba.app/vimeoPrueba";
+			};
+			name = Debug;
+		};
+		AC10A2EC1DA290C1006AF558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = vimeoPruebaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bwStudios.vimeoPruebaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vimeoPrueba.app/vimeoPrueba";
+			};
+			name = Release;
+		};
+		AC10A2EE1DA290C1006AF558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = vimeoPruebaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bwStudios.vimeoPruebaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = vimeoPrueba;
+			};
+			name = Debug;
+		};
+		AC10A2EF1DA290C1006AF558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = vimeoPruebaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bwStudios.vimeoPruebaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = vimeoPrueba;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC10A2BA1DA290C0006AF558 /* Build configuration list for PBXProject "vimeoPrueba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC10A2E51DA290C1006AF558 /* Debug */,
+				AC10A2E61DA290C1006AF558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC10A2E71DA290C1006AF558 /* Build configuration list for PBXNativeTarget "vimeoPrueba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC10A2E81DA290C1006AF558 /* Debug */,
+				AC10A2E91DA290C1006AF558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC10A2EA1DA290C1006AF558 /* Build configuration list for PBXNativeTarget "vimeoPruebaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC10A2EB1DA290C1006AF558 /* Debug */,
+				AC10A2EC1DA290C1006AF558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC10A2ED1DA290C1006AF558 /* Build configuration list for PBXNativeTarget "vimeoPruebaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC10A2EE1DA290C1006AF558 /* Debug */,
+				AC10A2EF1DA290C1006AF558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC10A2B71DA290C0006AF558 /* Project object */;
+}

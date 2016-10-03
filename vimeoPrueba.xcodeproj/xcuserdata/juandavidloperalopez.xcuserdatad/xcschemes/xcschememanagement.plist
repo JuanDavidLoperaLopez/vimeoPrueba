@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>vimeoPrueba.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>AC10A2BE1DA290C0006AF558</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AC10A2D21DA290C1006AF558</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AC10A2DD1DA290C1006AF558</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
