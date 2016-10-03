@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		919444111DD1C5F7CDC1FCF1 /* Pods_vimeoPrueba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCF55BFCC5C609A4960ABB5 /* Pods_vimeoPrueba.framework */; };
 		AC10A2C31DA290C1006AF558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10A2C21DA290C1006AF558 /* AppDelegate.swift */; };
 		AC10A2C51DA290C1006AF558 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10A2C41DA290C1006AF558 /* ViewController.swift */; };
 		AC10A2C81DA290C1006AF558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC10A2C61DA290C1006AF558 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		AC10A2CD1DA290C1006AF558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC10A2CB1DA290C1006AF558 /* LaunchScreen.storyboard */; };
 		AC10A2D81DA290C1006AF558 /* vimeoPruebaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10A2D71DA290C1006AF558 /* vimeoPruebaTests.swift */; };
 		AC10A2E31DA290C1006AF558 /* vimeoPruebaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10A2E21DA290C1006AF558 /* vimeoPruebaUITests.swift */; };
+		AC10A2F31DA2A124006AF558 /* podFile in Resources */ = {isa = PBXBuildFile; fileRef = AC10A2F21DA2A124006AF558 /* podFile */; };
+		AC9D2D111DA2AAA100329A49 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D2D101DA2AAA100329A49 /* APIRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		621F221C9F7BCFD5D0F2D7B3 /* Pods-vimeoPrueba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vimeoPrueba.release.xcconfig"; path = "Pods/Target Support Files/Pods-vimeoPrueba/Pods-vimeoPrueba.release.xcconfig"; sourceTree = "<group>"; };
+		8FCF55BFCC5C609A4960ABB5 /* Pods_vimeoPrueba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vimeoPrueba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC10A2BF1DA290C1006AF558 /* vimeoPrueba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vimeoPrueba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC10A2C21DA290C1006AF558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC10A2C41DA290C1006AF558 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,10 @@
 		AC10A2DE1DA290C1006AF558 /* vimeoPruebaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vimeoPruebaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC10A2E21DA290C1006AF558 /* vimeoPruebaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vimeoPruebaUITests.swift; sourceTree = "<group>"; };
 		AC10A2E41DA290C1006AF558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC10A2F21DA2A124006AF558 /* podFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = podFile; path = ../podFile; sourceTree = "<group>"; };
+		AC92A18D1DA2B66500562DFA /* _APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _APIRequest.swift; sourceTree = "<group>"; };
+		AC9D2D101DA2AAA100329A49 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		B425B5B84853A08B2392D2C9 /* Pods-vimeoPrueba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vimeoPrueba.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vimeoPrueba/Pods-vimeoPrueba.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919444111DD1C5F7CDC1FCF1 /* Pods_vimeoPrueba.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0618603E84F423A4C59FB2A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FCF55BFCC5C609A4960ABB5 /* Pods_vimeoPrueba.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A6DD260F388E50397FD62BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B425B5B84853A08B2392D2C9 /* Pods-vimeoPrueba.debug.xcconfig */,
+				621F221C9F7BCFD5D0F2D7B3 /* Pods-vimeoPrueba.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AC10A2B61DA290C0006AF558 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				AC10A2D61DA290C1006AF558 /* vimeoPruebaTests */,
 				AC10A2E11DA290C1006AF558 /* vimeoPruebaUITests */,
 				AC10A2C01DA290C1006AF558 /* Products */,
+				5A6DD260F388E50397FD62BF /* Pods */,
+				0618603E84F423A4C59FB2A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +126,14 @@
 		AC10A2C11DA290C1006AF558 /* vimeoPrueba */ = {
 			isa = PBXGroup;
 			children = (
+				AC9D2D0D1DA2A81100329A49 /* API */,
 				AC10A2C21DA290C1006AF558 /* AppDelegate.swift */,
 				AC10A2C41DA290C1006AF558 /* ViewController.swift */,
 				AC10A2C61DA290C1006AF558 /* Main.storyboard */,
 				AC10A2C91DA290C1006AF558 /* Assets.xcassets */,
 				AC10A2CB1DA290C1006AF558 /* LaunchScreen.storyboard */,
 				AC10A2CE1DA290C1006AF558 /* Info.plist */,
+				AC10A2F21DA2A124006AF558 /* podFile */,
 			);
 			path = vimeoPrueba;
 			sourceTree = "<group>";
@@ -125,6 +156,15 @@
 			path = vimeoPruebaUITests;
 			sourceTree = "<group>";
 		};
+		AC9D2D0D1DA2A81100329A49 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AC92A18D1DA2B66500562DFA /* _APIRequest.swift */,
+				AC9D2D101DA2AAA100329A49 /* APIRequest.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC10A2E71DA290C1006AF558 /* Build configuration list for PBXNativeTarget "vimeoPrueba" */;
 			buildPhases = (
+				52A0DD9B1704CA51D0CD5154 /* [CP] Check Pods Manifest.lock */,
 				AC10A2BB1DA290C0006AF558 /* Sources */,
 				AC10A2BC1DA290C0006AF558 /* Frameworks */,
 				AC10A2BD1DA290C0006AF558 /* Resources */,
+				9F14B1BDA4F4553BB20ACBD8 /* [CP] Embed Pods Frameworks */,
+				9C5082D36999C5CDEFF8861B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,15 +236,18 @@
 				TargetAttributes = {
 					AC10A2BE1DA290C0006AF558 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					AC10A2D21DA290C1006AF558 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = AC10A2BE1DA290C0006AF558;
 					};
 					AC10A2DD1DA290C1006AF558 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = AC10A2BE1DA290C0006AF558;
 					};
@@ -234,6 +280,7 @@
 			files = (
 				AC10A2CD1DA290C1006AF558 /* LaunchScreen.storyboard in Resources */,
 				AC10A2CA1DA290C1006AF558 /* Assets.xcassets in Resources */,
+				AC10A2F31DA2A124006AF558 /* podFile in Resources */,
 				AC10A2C81DA290C1006AF558 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,12 +301,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52A0DD9B1704CA51D0CD5154 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C5082D36999C5CDEFF8861B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vimeoPrueba/Pods-vimeoPrueba-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F14B1BDA4F4553BB20ACBD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vimeoPrueba/Pods-vimeoPrueba-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC10A2BB1DA290C0006AF558 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AC10A2C51DA290C1006AF558 /* ViewController.swift in Sources */,
+				AC9D2D111DA2AAA100329A49 /* APIRequest.swift in Sources */,
 				AC10A2C31DA290C1006AF558 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +504,7 @@
 		};
 		AC10A2E81DA290C1006AF558 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B425B5B84853A08B2392D2C9 /* Pods-vimeoPrueba.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = vimeoPrueba/Info.plist;
@@ -420,6 +517,7 @@
 		};
 		AC10A2E91DA290C1006AF558 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 621F221C9F7BCFD5D0F2D7B3 /* Pods-vimeoPrueba.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = vimeoPrueba/Info.plist;
@@ -503,6 +601,7 @@
 				AC10A2E91DA290C1006AF558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC10A2EA1DA290C1006AF558 /* Build configuration list for PBXNativeTarget "vimeoPruebaTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +610,7 @@
 				AC10A2EC1DA290C1006AF558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC10A2ED1DA290C1006AF558 /* Build configuration list for PBXNativeTarget "vimeoPruebaUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +619,7 @@
 				AC10A2EF1DA290C1006AF558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

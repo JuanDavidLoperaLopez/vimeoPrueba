@@ -1,0 +1,6 @@
+framework module Pods_vimeoPrueba {
+  umbrella header "Pods-vimeoPrueba-umbrella.h"
+
+  export *
+  module * { export * }
+}
